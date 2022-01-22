@@ -1,4 +1,8 @@
 # PySelenium-Automated-Testing
+
+This python project allows us to automate testing on any login page.
+
+
 ```
 usage: Automated_testing.py [-h] [-u URL] [--userid USERID] [--passid PASSID]
                             [-b BROWSER] [--driverpath DRIVERPATH] [-f FILE]
