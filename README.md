@@ -1,6 +1,6 @@
 # PySelenium-Automated-Testing
 
-This python project allows us to automate testing on any login page.
+This python project allows us to automate testing on any login page using selenium.
 
 
 ```
