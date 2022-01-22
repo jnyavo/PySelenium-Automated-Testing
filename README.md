@@ -15,7 +15,7 @@ options:
                         opera)
   --driverpath DRIVERPATH
                         the selenium driver file for the specified browser
-                        (default: /driver/msedgedriver.exe)
+                        (default: windows/driver/msedgedriver.exe)
   -f FILE, --file FILE  the file containing the list of users in json format
   -d DELAY, --delay DELAY
                         maximum loading delay in seconds
