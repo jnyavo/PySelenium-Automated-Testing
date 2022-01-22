@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import argparse
 import sys
 import json
@@ -46,7 +48,7 @@ DEFAULT_TEST_USERS = [
 
 DEFAULT_BROWSER = "edge"
 
-DEFAULT_DRIVER_PATH = r"./driver/msedgedriver.exe"
+DEFAULT_DRIVER_PATH = r"./windows/driver/msedgedriver.exe"
 
 DEFAULT_URL = "http://localhost/Automated_testing/login/"
 
