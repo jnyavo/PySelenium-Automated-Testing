@@ -52,13 +52,13 @@ or
 Selenium driver for the desired browser is needed in order to launch the automated testing.
 The driver must correspond to the version of the installed browser.
 
-The driver for Microsoft Edge Version 97.0.1072.69 is located in /windows/driver
+The driver for **Microsoft Edge Version 97.0.1072.69** is located in /windows/driver
 
 
 ## Usage
 
-In order to launch the automated testing, you only need the Automated_test.py file.
-You can access the parameters' information by using the --help argument as shown below.
+In order to launch the automated testing, you only need the **`Automated_test.py`** file.
+You can access the parameters' information by using the `--help` argument as shown below.
 
 ```
 ./Automated_testing.py --help
@@ -240,11 +240,11 @@ class bcolors:
 
 Assuming the php website at https://github.com/zahrah925/Automated-Testing has been set up correctly on windows 10.
 
-The batch script at windows/rapid-test.bat can be used to test the login using the users.json file.
+The batch script at `windows/rapid-test.bat` can be used to test the login using the `users.json` file.
 
 ```batch
 >cd /windows
 >rapid-test.bat
 ```
-The output of the script will be stored in a file named "Report.txt".
+The output of the script will be stored in a file named `Report.txt`.
 
