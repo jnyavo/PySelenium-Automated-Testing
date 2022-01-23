@@ -236,3 +236,15 @@ class bcolors:
     UNDERLINE = ''
 ```
 
+### Rapid test
+
+Assuming the php website at https://github.com/zahrah925/Automated-Testing has been set up correctly on windows 10.
+
+The batch script at windows/rapid-test.bat can be used to test the login using the users.json file.
+
+```batch
+>cd /windows
+>rapid-test.bat
+```
+The output of the script will be stored in a file named "Report.txt".
+
