@@ -164,11 +164,40 @@ and
 <a id="logout>
 ```
 
-after login.
+after login, using chrome browser.
 
-
-```sh
-./Automated_testing.py -u https://www.login-page.com --userid username --passid password --logoutid logout -b chrome
 
 ```
+./Automated_testing.py -u https://www.login-page.com --userid username --passid password --logoutid logout -b chrome --driverpath /path/to/driver -f /path/to/user/list/users.json -d 10
+
+```
+
+The user list for the testing must be in json format as shown below.
+
+```json
+{
+  "users": [
+    {
+      "username": "user",
+      "password": "1234"
+    },
+    {
+      "username": "unknown",
+      "password": "fgsdgsdg"
+    },
+    {
+      "username": "nyavo",
+      "password": "1234"
+    },
+    {
+      "username": "darino",
+      "password": "1234"
+    }
+
+  ]
+}
+```
+
+This file can be found in the project : "users.json"
+
 
