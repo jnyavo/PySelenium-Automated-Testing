@@ -1,7 +1,7 @@
 # PySelenium-Automated-Testing
 
 [![Python](https://www.python.org//static/img/python-logo.png)](https://www.python.org)
-[![Selenium](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.selenium.dev%2F&psig=AOvVaw2iT4prj2SYNfF4ipHqJ0qG&ust=1643012097548000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjCz5W3x_UCFQAAAAAdAAAAABAD)](https://www.python.org)
+[![Selenium](https://www.selenium.dev/images/selenium_4_logo.png)](https://www.selenium.dev)
 This python project allows us to automate testing on any login page using selenium.
 
 
