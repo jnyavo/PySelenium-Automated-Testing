@@ -152,7 +152,7 @@ Login test for  {'username': 'darino', 'password': '1234'}
 
 ### Using parameters
 
-This is an example of an automated testing on a login page at www.login-page.com, which have 
+This is an example of an automated testing on a login page at www.login-page.com, which has
 ```html
 <input id="username"/>
 <input id="password"/> 
