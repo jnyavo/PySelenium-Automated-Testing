@@ -152,5 +152,23 @@ Login test for  {'username': 'darino', 'password': '1234'}
 
 ### Using parameters
 
+This is an example of an automated testing on a login page at www.login-page.com, which have 
+```html
+<input id="username"/>
+<input id="password"/> 
+	   
+```
+and
 
+```html
+<a id="logout>
+```
+
+after login.
+
+
+```sh
+./Automated_testing.py -u https://www.login-page.com --userid username --passid password --logoutid logout -b chrome
+
+```
 
