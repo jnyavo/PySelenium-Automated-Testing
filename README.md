@@ -200,4 +200,39 @@ The user list for the testing must be in json format as shown below.
 
 This file can be found in the project : "users.json"
 
+### Colored Text
+
+The output for this script is designed to be colored. However, colored texts are not supported in windows command-line.
+
+To enable colored texts remove the comment quotes on the following code and remove or comment the former class.
+
+```python
+"""
+Use this class to add colors in terminal 
+n.b: not applicable in windows command-line
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+"""
+
+
+# No color
+class bcolors:
+    HEADER = ''
+    OKBLUE = ''
+    OKCYAN = ''
+    OKGREEN = ''
+    WARNING = ''
+    FAIL = ''
+    ENDC = ''
+    BOLD = ''
+    UNDERLINE = ''
+```
 
