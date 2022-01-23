@@ -4,6 +4,14 @@
 [![Selenium](https://www.selenium.dev/images/selenium_4_logo.png)](https://www.selenium.dev)
 This python project allows us to automate testing on any login page using selenium.
 
+## Features
+
+- Import a HTML file and watch it magically convert to Markdown
+- Drag and drop images (requires your Dropbox account be linked)
+- Import and save files from GitHub, Dropbox, Google Drive and One Drive
+- Drag and drop markdown and HTML files into Dillinger
+- Export documents as Markdown, HTML and PDF
+
 
 ```
 usage: Automated_testing.py [-h] [-u URL] [--userid USERID] [--passid PASSID]
