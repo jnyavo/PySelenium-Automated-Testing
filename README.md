@@ -10,6 +10,7 @@ This python project allows us to automate testing on any login page using seleni
 - Automated testing on login page
 - Add custom user list for automated testing
 - Automated testing on different browsers
+- Colored text in terminal 
 
 ## Prerequisite
 
@@ -83,4 +84,36 @@ options:
   --logoutid LOGOUTID   ID attribute of logout button HTML element
 
 ```
+### Default settings
+
+The script can be launched without parameters, it will use the default settings.
+
+```sh
+./Automated_testing.py
+```
+The default settings are defined at the top of the Automated_testing.py python script.
+
+```python
+DEFAULT_TEST_USERS = [
+    {"username": "user", "password": "1234"},
+    {"username": "unknown", "password": "fdsfdsdg"}
+]
+
+DEFAULT_BROWSER = "edge"
+
+DEFAULT_DRIVER_PATH = r"./windows/driver/msedgedriver.exe"
+
+DEFAULT_URL = "http://localhost/Automated_testing/login/"
+
+DEFAULT_DELAY = 10
+
+DEFAULT_USER_ID = "username"
+
+DEFAULT_PASS_ID = "password"
+
+DEFAULT_LOGOUT_ID = "logout"
+```
+
+
+
 
