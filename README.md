@@ -251,7 +251,7 @@ The output of the script will be stored in a file named `Report.txt`.
 ## Testing steps
 
 -  Verify if login accepts empty fields
--  Verify if login works with each of the provided users (or with default users)
+-  Verify if login and logout work with each of the provided users (or with default users)
 
 ## Objectives of the project
 
