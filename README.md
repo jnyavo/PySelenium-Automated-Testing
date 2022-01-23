@@ -59,7 +59,7 @@ The driver for Microsoft Edge Version 97.0.1072.69 is located in /windows/driver
 In order to launch the automated testing, you only need the Automated_test.py file.
 You can access the parameters' information by using the --help argument as shown below.
 
-```sh
+```
 ./Automated_testing.py --help
 usage: Automated_testing.py [-h] [-u URL] [--userid USERID] [--passid PASSID]
                             [-b BROWSER] [--driverpath DRIVERPATH] [-f FILE]
