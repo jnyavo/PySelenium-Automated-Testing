@@ -114,6 +114,13 @@ DEFAULT_PASS_ID = "password"
 DEFAULT_LOGOUT_ID = "logout"
 ```
 
-
+- DEFAULT_TEST_USERS : user list used for the test
+- DEFAULT_BROWSER : the desired browser name in lowercase
+- DEFAULT_DRIVER_PATH : the path to the selenium driver file
+- DEFAULT_URL : the URL of the login page
+- DEFAULT_DELAY: the timeout value in seconds
+- DEFAULT_USER_ID: the id attribute of the username input
+- DEFAULT_PASS_ID: the id attribute of the password input
+- DEFAULT_LOGOUT_ID : the id attribute of the logout button
 
 
