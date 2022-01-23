@@ -252,3 +252,8 @@ The output of the script will be stored in a file named `Report.txt`.
 
 -  Verify if login accepts empty fields
 -  Verify if login works with each of the provided users (or with default users)
+
+## Objectives of the project
+
+-  Optimize testing tasks for login
+-  Easily adaptable testing script
