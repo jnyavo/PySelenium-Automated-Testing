@@ -123,4 +123,6 @@ DEFAULT_LOGOUT_ID = "logout"
 - DEFAULT_PASS_ID: the id attribute of the password input
 - DEFAULT_LOGOUT_ID : the id attribute of the logout button
 
+These settings can be modified if needed.
+
 
