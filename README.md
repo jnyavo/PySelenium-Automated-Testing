@@ -248,3 +248,7 @@ The batch script at `windows/rapid-test.bat` can be used to test the login using
 ```
 The output of the script will be stored in a file named `Report.txt`.
 
+## Testing steps
+
+-  Verify if login accepts empty fields
+-  Verify if login works with each of the provided users (or with default users)
