@@ -13,19 +13,54 @@ This python project allows us to automate testing on any login page using seleni
 
 ## Prerequisite
 
+### Python selenium package
+
 Selenium package for python is required in order to launch the automated testing script.
 Installation scripts are included in the project for windows and linux.
 
-### Windows
+#### Windows
+
 ```batch
 >cd windows/installation
 >Selenium-Installation-Windows.bat
 ```
 
-
-
-
+#### Linux
+```sh
+cd linux/installation
+./Selenium-installation-linux.sh
 ```
+These installation scripts will work assuming python3 has been installed with the default settings.
+
+The package can be installed manually.
+
+```sh
+python3 -m pip --upgrade pip
+python3 -m pip install selenium
+```
+
+or
+
+```batch
+>python.exe -m pip --upgrade pip
+>python.exe -m pip install selenium
+```
+
+### Selenium driver
+
+Selenium driver for the desired browser is needed in order to launch the automated testing.
+The driver must correspond to the version of the installed browser.
+
+The driver for Microsoft Edge Version 97.0.1072.69 is located in /windows/driver
+
+
+## Usage
+
+In order to launch the automated testing, you only need the Automated_test.py file.
+You can access the parameters' information by using the --help argument as shown below.
+
+```sh
+./Automated_testing.py --help
 usage: Automated_testing.py [-h] [-u URL] [--userid USERID] [--passid PASSID]
                             [-b BROWSER] [--driverpath DRIVERPATH] [-f FILE]
                             [-d DELAY] [--logoutid LOGOUTID]
@@ -48,3 +83,4 @@ options:
   --logoutid LOGOUTID   ID attribute of logout button HTML element
 
 ```
+
