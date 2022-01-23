@@ -1,5 +1,8 @@
 # PySelenium-Automated-Testing
 
+[![N|Solid](https://www.python.org//static/img/python-logo.png)](https://www.python.org)
+[![N|Solid](https://upload.wikimedia.org/wikipedia/commons/9/9f/Selenium_logo.svg)](https://www.selenium.dev/)
+
 This python project allows us to automate testing on any login page using selenium.
 
 
